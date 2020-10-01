@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,300;1,400&display=swap');
+
+$main-font: 'Roboto', sans-serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+.app {
+    font-family: $main-font;
+    min-height: 100%;
+}
+
+nav {
+    display: flex;
+    min-height: 10vh;
+    background-color: #2d2d62;
+    align-items: center;
+
+    .logo {
+        color: white;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-left: 2rem;
+    }
+
+    .header {
+        color: white;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-left: .75rem;
+    }
+}
+
+//Cross Backgrounds
+.center-container {
+    height: 100vh;
+    background: url("/assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 65%;
+    }
+}
+
+// Main Page Content 
+.main-content {
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.shop-button {
+    margin: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1) perspective(1px)
+    } 
+}
+
+//Shop Page Content
+
+.shop-content {
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

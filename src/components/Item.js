@@ -22,12 +22,11 @@ const Item = (props) => {
     const resetCount = () => {
         setCount(0)
     }
-
     return (
         
         <div className="item-card">
             <div className="item">
-                <img className="product-photo" alt={props.name} src={props.photo} />
+                <img className="product-photo" alt={props.name} src={require(`../assets/${props.photo}.jpg`)} />
                 <div className="product-description">
                     <div className="product-title">{props.name}</div>
                     <div className="product-price">{props.price}</div>

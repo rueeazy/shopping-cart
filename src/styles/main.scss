@@ -48,6 +48,7 @@ nav {
 //Cross Backgrounds
 .center-container {
     height: 100vh;
+    z-index: -999;
     background: url("../assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,6 +57,7 @@ nav {
     align-items: center;
 
     .overlay {
+        z-index: 0;
         position: absolute;
         height: 100%;
         width: 100%;
@@ -97,9 +99,9 @@ nav {
 
 //Shop Page Content
 .shop-content {
+    z-index: 999;
     position: absolute;
     margin-top: 2rem;
-    z-index: 999;
     width: 80%;
     height: 80%;
     background: white;

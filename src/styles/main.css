@@ -36,6 +36,7 @@ nav {
 
 .center-container {
   height: 100vh;
+  z-index: -999;
   background: url("../assets/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,6 +44,7 @@ nav {
   justify-content: center;
   align-items: center; }
   .center-container .overlay {
+    z-index: 0;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -75,9 +77,9 @@ nav {
     transform: scale(1) perspective(1px); }
 
 .shop-content {
+  z-index: 999;
   position: absolute;
   margin-top: 2rem;
-  z-index: 999;
   width: 80%;
   height: 80%;
   background: white;

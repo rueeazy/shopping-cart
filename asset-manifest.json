@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.e5c5f8b8.chunk.css",
-    "main.js": "/shopping-cart/static/js/main.ec032ebd.chunk.js",
-    "main.js.map": "/shopping-cart/static/js/main.ec032ebd.chunk.js.map",
+    "main.css": "/shopping-cart/static/css/main.7e08426f.chunk.css",
+    "main.js": "/shopping-cart/static/js/main.924c0c51.chunk.js",
+    "main.js.map": "/shopping-cart/static/js/main.924c0c51.chunk.js.map",
     "runtime-main.js": "/shopping-cart/static/js/runtime-main.6e52efc5.js",
     "runtime-main.js.map": "/shopping-cart/static/js/runtime-main.6e52efc5.js.map",
-    "static/js/2.5662c744.chunk.js": "/shopping-cart/static/js/2.5662c744.chunk.js",
-    "static/js/2.5662c744.chunk.js.map": "/shopping-cart/static/js/2.5662c744.chunk.js.map",
+    "static/js/2.2934f2dc.chunk.js": "/shopping-cart/static/js/2.2934f2dc.chunk.js",
+    "static/js/2.2934f2dc.chunk.js.map": "/shopping-cart/static/js/2.2934f2dc.chunk.js.map",
     "index.html": "/shopping-cart/index.html",
-    "precache-manifest.3a5d9c702b5b80aa2930c82437442cfa.js": "/shopping-cart/precache-manifest.3a5d9c702b5b80aa2930c82437442cfa.js",
+    "precache-manifest.1b8ca324e94ecb11f6b1cb1af20b2802.js": "/shopping-cart/precache-manifest.1b8ca324e94ecb11f6b1cb1af20b2802.js",
     "service-worker.js": "/shopping-cart/service-worker.js",
-    "static/css/main.e5c5f8b8.chunk.css.map": "/shopping-cart/static/css/main.e5c5f8b8.chunk.css.map",
-    "static/js/2.5662c744.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.5662c744.chunk.js.LICENSE.txt"
+    "static/css/main.7e08426f.chunk.css.map": "/shopping-cart/static/css/main.7e08426f.chunk.css.map",
+    "static/js/2.2934f2dc.chunk.js.LICENSE.txt": "/shopping-cart/static/js/2.2934f2dc.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/shopping-cart/static/media/background.67de03e5.jpg",
+    "static/media/mens-shorts.jpg": "/shopping-cart/static/media/mens-shorts.849df5bb.jpg",
+    "static/media/mens-t.jpg": "/shopping-cart/static/media/mens-t.33159123.jpg",
+    "static/media/socks.jpg": "/shopping-cart/static/media/socks.3b66f9a2.jpg",
+    "static/media/womens-leggings.jpg": "/shopping-cart/static/media/womens-leggings.f9dfe883.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6e52efc5.js",
-    "static/js/2.5662c744.chunk.js",
-    "static/css/main.e5c5f8b8.chunk.css",
-    "static/js/main.ec032ebd.chunk.js"
+    "static/js/2.2934f2dc.chunk.js",
+    "static/css/main.7e08426f.chunk.css",
+    "static/js/main.924c0c51.chunk.js"
   ]
 }

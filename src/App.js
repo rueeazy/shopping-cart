@@ -23,19 +23,20 @@ const App = () => {
     }
 
     return (
-        <Router>
-            <div className="app">
-                <Nav />
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/shop" 
-                        render={props => <Shop {...props} 
-                        products={products}
-                        updateProducts={updateProducts}
-                         />} />
-                </Switch>
-            </div>
-        </Router>
+        <div className="app">
+            <Router basename ={process.env.PUBLIC_URL}>
+                    <Nav />
+                    <Switch>
+                        <Route exact path="/" component={Home} />
+                        <Route exact path="/shop" 
+                            render={props => <Shop {...props} 
+                            products={products}
+                            updateProducts={updateProducts}
+                            />} />
+                    </Switch>
+            </Router>
+
+        </div>
         
     )
 }

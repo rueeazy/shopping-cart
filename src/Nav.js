@@ -6,7 +6,7 @@ import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 const Nav = () => {
     return (
         <nav>
-            <Link  style={{display: "flex" , textDecoration: "none"}} to={"/"}>
+            <Link  style={{display: "flex" , textDecoration: "none"}} to={"/#"}>
                 <div className="logo">
                     <FontAwesomeIcon icon={faDumbbell} />
                 </div>

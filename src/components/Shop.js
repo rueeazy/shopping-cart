@@ -9,13 +9,20 @@ const Shop = (props) => {
                 <div className="overlay"></div>
                 <div className="shop-content">
                     <div className="items-container">
-                       <Item /> 
-                       <Item />
-                       <Item />
-                       <Item />
+                        {props.products.map(item => {
+                            return <Item 
+                                    product={item}
+                                    key={item.id} 
+                                    name={item.name}
+                                    price={item.price}
+                                    photo={item.photo}
+                                    updateProducts={props.updateProducts} />
+                        })} 
                     </div>
                     <div className="cart-container">
-                        <Cart />
+                        <Cart 
+                        cartTotal={props.cartTotal}
+                        products={props.products} />
                     </div>
                 </div>
             </div>

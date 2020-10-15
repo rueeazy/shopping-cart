@@ -190,4 +190,28 @@ nav {
   border-radius: 2px;
   cursor: pointer; }
 
+@media only screen and (max-width: 500px) {
+  nav .logo {
+    font-size: 2rem; }
+  nav .header {
+    font-size: 2rem; }
+
+  .items-container .product-photo {
+    width: auto;
+    height: 100px; }
+  .items-container .product-description {
+    font-size: .7rem; }
+  .items-container .add {
+    padding: 0; }
+
+  .shop-content {
+    margin-top: 1.5rem;
+    height: 405px; }
+
+  .cart-container {
+    height: 400px; }
+
+  .cart-section {
+    height: 400px; } }
+
 /*# sourceMappingURL=main.css.map */
